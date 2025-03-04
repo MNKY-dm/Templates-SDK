@@ -102,7 +102,7 @@ body {
 
 .navbar {
     /* Régler les dimensions de la barre de navigation + sa couleur + son organisation */
-    padding : 0 70px; /* Respecter les padding latéraux globaux de la page */
+    padding : 0 5%; /* Respecter les padding latéraux globaux de la page */
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -122,13 +122,19 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 10%;
+    width: 20%;
 }
 
-.navbar h6 {
+.navbar .logo {
     /* Centrer le logo en centre de la navbar */
-    position: absolute;
-    left: 720px; 
+    left: 60%; 
+}
+
+.navbar .main-button {
+    /* Ajuster la taille du bouton de la navbar et le positionner à droite */
+    width: 20%;
+    justify-items: end;
 }
 
 
@@ -143,14 +149,14 @@ header {
 
 header div.title-logo {
     justify-items: center;
-    width: 268px;
-    height: 142px;
-    padding-bottom: 50px;
+    width: 2em;
+    height: 5em;
+    padding-bottom: 3.6%;
 }
 
 header div.title {
     justify-items: center;
-    width: 768px;
+    width: 44em;
 }
 
 header div.title h1 {
