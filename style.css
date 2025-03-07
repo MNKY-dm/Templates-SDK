@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Protest Strike';
-    src: url(fonts/Protest_Strike/ProtestStrike-Regular.ttf) format('truetype');
+    font-family: 'Arial Rounded MT Bold';
+    src: url(fonts/Arial\ Rounded\ MT\ Bold/arialroundedmtbold.ttf) format('truetype');
 }
 
 /*---Styles des polices---*/
@@ -179,23 +179,24 @@ header div.title div.header-buttons {
     position: absolute;
 }
 .header-image-1 {
-    left: -118px;
-    top: 165px;
+    left: -5%;
+    top: 15%;
 }
 .header-image-2 {
-    left: -118px;
-    top: 165px;
+    left: 15%;
+    top: 55%;
 }
 .header-image-3 {
-    left: -118px;
-    top: 165px;
+    left: 40%;
+    top: 67%;
 }
 .header-image-4 {
-    left: -118px;
-    top: 165px;
+    left: 68%;
+    top: 60%;
 }
+
 .header-image-5 {
-    left: -118px;
+    left: 90%;
     top: 165px;
 }
 
