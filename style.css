@@ -1,3 +1,6 @@
+/* ---> console.log(window.innerWidth);
+pour savoir la largeur en px de l'écran sur le web */
+
 @font-face {
     font-family: 'Arial Rounded MT Bold';
     src: url(fonts/Arial\ Rounded\ MT\ Bold/arialroundedmtbold.ttf) format('truetype');
@@ -114,9 +117,25 @@ body {
     top: 0;
     background-color: #4B3567;
 }
+@media (max-width: 1600px) {
+    .navbar .menu {
+        /* Organiser le menu de la barre de navigation */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        width: 40%;
+    }
+}
 
-.navbar .menu {
-    /* Organiser le menu de la barre de navigation */
+/* @media screen {
+    
+} */
+
+/* .navbar .menu {
+    /* Organiser le menu de la barre de navigation 
     margin: 0;
     padding: 0;
     list-style: none;
@@ -124,16 +143,17 @@ body {
     flex-direction: row;
     gap: 10%;
     width: 20%;
-}
+} 
+*/
 
 .navbar .logo {
     /* Centrer le logo en centre de la navbar */
-    left: 60%; 
+    left: 10%; 
 }
 
 .navbar .main-button {
     /* Ajuster la taille du bouton de la navbar et le positionner à droite */
-    width: 20%;
+    width: 40%;
     justify-items: end;
 }
 
@@ -174,30 +194,125 @@ header div.title div.header-buttons {
     gap: 16px;
 }
 
-
+/* Les images flottantes du header */
 .header-image-1,.header-image-2,.header-image-3,.header-image-4,.header-image-5 {
     position: absolute;
-}
-.header-image-1 {
-    left: -5%;
-    top: 15%;
-}
-.header-image-2 {
-    left: 15%;
-    top: 55%;
-}
-.header-image-3 {
-    left: 40%;
-    top: 67%;
-}
-.header-image-4 {
-    left: 68%;
-    top: 60%;
+    display: inline;
 }
 
-.header-image-5 {
-    left: 90%;
-    top: 165px;
+
+@media (max-width: 2000px) {
+    .header-image-1 {
+        left: -5%;
+        top: 15%;
+        width:316px ;
+        height:316px ;
+    }
+    .header-image-2 {
+        left: 15%;
+        top: 55%;
+        width:316px ;
+        height:316px ;
+        
+    }
+    .header-image-3 {
+        left: 40%;
+        top: 67%;
+        width:316px ;
+        height:316px ;
+        
+    }
+    .header-image-4 {
+        left: 68%;
+        top: 60%;
+        width:316px ;
+        height:316px ;
+        
+    }
+    
+    .header-image-5 {
+        left: 90%;
+        top: 165px;
+        width:316px ;
+        height:316px ;
+        
+    }
+}
+
+@media (max-width: 1600px) {
+    .header-image-1 {
+        left: -5%;
+        top: 15%;
+        width: 250px ;
+        height: 250px ;
+    }
+    .header-image-2 {
+        left: 15%;
+        top: 55%;
+        width: 250px ;
+        height: 250px ;
+    
+    }
+    .header-image-3 {
+        left: 40%;
+        top: 67%;
+        width: 250px ;
+        height: 250px ;
+    
+    }
+    .header-image-4 {
+        left: 68%;
+        top: 60%;
+        width: 250px ;
+        height: 250px ;
+    
+    }
+    
+    .header-image-5 {
+        left: 90%;
+        top: 165px;
+        width: 250px ;
+        height: 250px ;
+    
+    }
+    
+}
+@media (max-width: 1450px) {
+    .header-image-1 {
+        left: -5%;
+        top: 15%;
+        width:250px ;
+        height:250px ;
+    }
+    .header-image-2 {
+        left: 15%;
+        top: 55%;
+        width:250px ;
+        height:250px ;
+    
+    }
+    .header-image-3 {
+        left: 40%;
+        top: 67%;
+        width:250px ;
+        height:250px ;
+    
+    }
+    .header-image-4 {
+        left: 68%;
+        top: 60%;
+        width:250px ;
+        height:250px ;
+    
+    }
+    
+    .header-image-5 {
+        left: 90%;
+        top: 165px;
+        width:250px ;
+        height:250px ;
+    
+    }
 }
 
 
