@@ -104,6 +104,7 @@ body {
 /* Empêcher les éléments d'agrandir horizontalement la page */
 html, body {
     overflow-x: hidden;
+    overflow-y: hidden;
   }  
 
 
@@ -154,15 +155,19 @@ html, body {
 /* header */
 
 header {
-    margin: 160px 0 0; 
+    margin: 320px 0 0; 
     justify-items: center;
 }
 
+
+/* Centrer le logo sur la page (il est asymétrique alors il faut bidouiller un peu */
 header div.title-logo {
+    position: absolute;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 40%;
-    padding-bottom: 3%;
+    left: 29%;
+    top: 17%;
 }
 
 header div.title-logo img {
